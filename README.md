@@ -4,7 +4,7 @@ Projeto de **automação de testes Web** utilizando **Cypress** integrado com **
 
 O projeto é focado na automação de fluxos como **login**, **cadastro de usuários/clientes** e **dashboards administrativos**.
 
-Desenvolvido durante o curso da Udemy "Automação Web - Cypress e Cucumber", ministrado pelo Danilo Santana Barbosa
+Desenvolvido durante o curso da Udemy **"Automação Web - Cypress e Cucumber"**, ministrado pelo **Danilo Santana Barbosa**
 
 Link: https://www.udemy.com/share/10aOvW3@7xhtlbyZNJNSvOLsolBDRB7gwJL4PQf3G3ToXdRTl552_E5nbQSHplb2ZFaMxJBc/
 
