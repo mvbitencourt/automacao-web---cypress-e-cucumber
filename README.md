@@ -19,46 +19,51 @@ O projeto é focado na automação de fluxos como **login**, **cadastro de usuá
 ## 📂 Estrutura do Projeto
 
 ```text
-cypress
-├── e2e
-│   ├── elements
-│   │   ├── customersElements.js
-│   │   ├── customersRegisterElements.js
-│   │   ├── dashboardAdminElements.js
-│   │   ├── homeElements.js
-│   │   ├── loginAdminElements.js
-│   │   ├── loginElements.js
-│   │   └── registerElements.js
+automacao-web---cypress-e-cucumber
+├── cypress
+│   ├── e2e
+│   │   ├── elements
+│   │   │   ├── customersElements.js
+│   │   │   ├── customersRegisterElements.js
+│   │   │   ├── dashboardAdminElements.js
+│   │   │   ├── homeElements.js
+│   │   │   ├── loginAdminElements.js
+│   │   │   ├── loginElements.js
+│   │   │   └── registerElements.js
+│   │   │
+│   │   ├── features
+│   │   │   ├── login.feature
+│   │   │   ├── loginCustomers.feature
+│   │   │   ├── register.feature
+│   │   │   └── registerCustomers.feature
+│   │   │
+│   │   ├── pages
+│   │   │   ├── customersPage.js
+│   │   │   ├── customersRegisterPage.js
+│   │   │   ├── dashboardAdminPage.js
+│   │   │   ├── homePage.js
+│   │   │   ├── loginAdminPage.js
+│   │   │   ├── loginPage.js
+│   │   │   └── registerPage.js
+│   │   │
+│   │   └── steps
+│   │       ├── loginAdminSteps.js
+│   │       ├── loginSteps.js
+│   │       ├── registerSteps.js
+│   │       └── registerUsersSteps.js
 │   │
-│   ├── features
-│   │   ├── login.feature
-│   │   ├── loginCustomers.feature
-│   │   ├── register.feature
-│   │   └── registerCustomers.feature
+│   ├── Files
+│   │   └── image.jpg
 │   │
-│   ├── pages
-│   │   ├── customersPage.js
-│   │   ├── customersRegisterPage.js
-│   │   ├── dashboardAdminPage.js
-│   │   ├── homePage.js
-│   │   ├── loginAdminPage.js
-│   │   ├── loginPage.js
-│   │   └── registerPage.js
+│   ├── fixtures
+│   │   └── example.json
 │   │
-│   ├── steps
-│   │   ├── loginAdminSteps.js
-│   │   ├── loginSteps.js
-│   │   ├── registerSteps.js
-│   │   └── registerUsersSteps.js
+│   └── support
+│       ├── commands.js
+│       └── e2e.js
 │
-├── fixtures
-│
-├── support
-│
-├── Files
-│
+├── .gitignore
 ├── cypress.config.js
-│
-├── package.json
 ├── package-lock.json
-└── node_modules
+├── package.json
+└── README.md
