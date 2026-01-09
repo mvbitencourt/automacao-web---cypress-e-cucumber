@@ -12,9 +12,7 @@ O projeto é focado na automação de fluxos críticos como **login**, **cadastr
 - 🥒 **Cucumber (BDD)**
 - 📄 **Gherkin**
 - 🧱 **Page Object Model (POM)**
-- 📦 **JavaScript (ES6+)**
-- 🔍 **CSS Selectors e XPath**
-- 🧪 **Testes End-to-End (E2E)**
+- 📦 **JavaScript**
 
 ---
 
