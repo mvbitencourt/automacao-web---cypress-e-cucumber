@@ -1,2 +1,66 @@
-# automacao-web---cypress-e-cucumber
-Projeto de automação de testes Web utilizando Cypress com Cucumber (BDD), estruturado com Page Objects e mapeamento de elementos, focado em testes de fluxos de login, cadastro e dashboards, seguindo boas práticas de automação e organização de código.
+# 🚀 Automação Web com Cypress + Cucumber (BDD)
+
+Este repositório contém um projeto de **automação de testes Web** utilizando **Cypress** integrado com **Cucumber (BDD)**, aplicando boas práticas como **Page Object Model**, **separação de responsabilidades**, **reutilização de código** e **organização modular**.
+
+O projeto é focado na automação de fluxos críticos como **login**, **cadastro de usuários/clientes** e **dashboards administrativos**.
+
+---
+
+## 🧪 Tecnologias Utilizadas
+
+- ⚙️ **Cypress**
+- 🥒 **Cucumber (BDD)**
+- 📄 **Gherkin**
+- 🧱 **Page Object Model (POM)**
+- 📦 **JavaScript (ES6+)**
+- 🔍 **CSS Selectors e XPath**
+- 🧪 **Testes End-to-End (E2E)**
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+cypress
+├── e2e
+│   ├── elements
+│   │   ├── customersElements.js
+│   │   ├── customersRegisterElements.js
+│   │   ├── dashboardAdminElements.js
+│   │   ├── homeElements.js
+│   │   ├── loginAdminElements.js
+│   │   ├── loginElements.js
+│   │   └── registerElements.js
+│   │
+│   ├── features
+│   │   ├── login.feature
+│   │   ├── loginCustomers.feature
+│   │   ├── register.feature
+│   │   └── registerCustomers.feature
+│   │
+│   ├── pages
+│   │   ├── customersPage.js
+│   │   ├── customersRegisterPage.js
+│   │   ├── dashboardAdminPage.js
+│   │   ├── homePage.js
+│   │   ├── loginAdminPage.js
+│   │   ├── loginPage.js
+│   │   └── registerPage.js
+│   │
+│   ├── steps
+│   │   ├── loginAdminSteps.js
+│   │   ├── loginSteps.js
+│   │   ├── registerSteps.js
+│   │   └── registerUsersSteps.js
+│
+├── fixtures
+│
+├── support
+│
+├── Files
+│
+├── cypress.config.js
+│
+├── package.json
+├── package-lock.json
+└── node_modules
