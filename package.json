@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "cypress": "^15.8.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/e2e/steps"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
